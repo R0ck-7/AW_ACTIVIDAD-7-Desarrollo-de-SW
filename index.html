@@ -3,45 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puntos Extras</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <a class="navbar-brand" href="#"><strong> Tipos de Explosivos </strong></a>
+            <!--bg es background-->
+            <!--navbar-dark es para los textos que tenemos en una barra oscura los hace mas claros, a blanco-->
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="images/grenade.png" alt="Royal Food" class="logo me-3 ">
+            <!--La m permite crear margenes a la clase, e de end-->
+            <a class="navbar-brand" href="#"><strong> Explosivos </strong></a>
+            <div class="collapse navbar-collapse me-5" id="navbarTogglerDemo03">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Usos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Galeria</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">Tipos</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#">Carateritica</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">Nivel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Usos</a>
                 </li>
                 </ul>
             </div>
             </div>
         </nav>
+        <!--encabezado-->
         <header class="inicio">
             <div class="container-fluid">
+                <!--que la caja sea el 100% para que ocupe todo el espacio-->
                 <div class="row">
                     <div class="col-md-6">
                         <div class="inicio-titulo">
-                            <h1 class="text-center">Explosivos</h1>
-                            <p class="text-center">Un explosivo es una sustancia química que, al ser activada, produce una reacción rápida de descomposición que libera grandes cantidades de energía en forma de calor, luz, presión y gases. Estas sustancias pueden transformarse en gases debido a causas externas como roce, calor o percusión, liberando calor y presión en un tiempo muy breve. Los explosivos son utilizados en diversas aplicaciones, desde la minería hasta la pirotecnia</p>
+                            <h1 class="text-center">¿Qué es un explosivo? </h1>
+                            <p class="text-center">En resumen, un explosivo es una sustancia o combinación de sustancias que pueden reaccionar violentamente emitiendo calor, luz, sonido y gas a velocidades y presiones que pueden causar inmensos daños al entorno. 
+                             El Código Australiano de Mercancías Peligrosas clasifica los explosivos como mercancías peligrosas de “Clase 1” y la ONU los define como:  
+                             Sustancia sólida o líquida (o mezcla de sustancias) capaz, mediante reacción química, de producir gas a una temperatura, presión y velocidad tales que causan daños al entorno. Se incluyen las sustancias pirotécnicas incluso cuando no desprenden gases. </p>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
+        <!--Tipos de Explosivos-->
+        <section class="especialidades mb-5">
+            <div class="container">
+                <h2 class="text-center mt-5">Tipos de Explosivos</h2>
+                <h5 class="text-center">Breve explicacio de los tipos de explosivos</h5>
+                <div class="row">
+                    <div>
+                        <div class="text-center border rounded h-100 p-4">
+                            <i class="bi bi-fire text-danger mb-3 fs-1"></i>
+                            <h5>Explosivos primarios</h5>
+                            <p class="text-muted small">Son altamente sensibles al calor, al impacto o a la fricción. Por su extrema reactividad, detonan con facilidad incluso con un pequeño estímulo, por lo que se utilizan en cantidades reducidas como iniciadores o detonadores de explosivos menos sensibles. </p>
+                        </div>                    
+                    </div>
+                    <div>
+                        <div class="text-center border rounded h-100 p-4">
+                            <i class="bi bi-fire text-danger mb-3 fs-1"></i>
+                            <h5>Explosivos secundarios</h5>
+                            <p class="text-muted small">Son mucho más estables e insensibles que los primarios. No explotan por una simple llama, por lo que requieren de un detonador (un explosivo primario) para iniciar la explosión</p>
+                        </div>                      
+                    </div>
+                    <div>
+                        <div class="text-center border rounded h-100 p-4">
+                            <i class="bi bi-fire text-danger mb-3 fs-1"></i>
+                            <h5>Explosivos terciarios</h5>
+                            <p class="text-muted small">También conocidos como agentes de voladura, son los más insensibles de todos y necesitan de un iniciador potente para detonar. Suelen ser mezclas de diferentes compuestos</p>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!--Tipos De Explosivos-->
+        <section class="platillos py-5">
+            <div class="container">
+            <h2 class="text-center mb-4">Nivel De Los Explosivos</h2>
+             <div class="contenedor-flex">
+            </div>
+            <div class="row">
+                <img src="images/istockphoto-1198832169-612x612.jpg" alt="" class="col-md-4">
+                <div class="col-md text-center border rounded p-4">
+                <h4>Nivel 1: Peligro leve.</h4>
+                <p>Corresponde a materiales que deben precalentarse considerablemente antes de que puedan encenderse.</p>
+                </div>
+                <div class="mx-3 col-md text-center border rounded p-4">
+                <h4>Nivel 2: Peligro moderado.</h4>
+                <p>Incluye materiales que deben calentarse moderadamente o exponerse a temperaturas más elevadas antes de que ocurra la ignición, como el petrodiésel.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="images/istockphoto-1198832169-612x612.jpg" alt="" class="col-md-4">
+                <div class="col-md text-center border rounded p-4">
+                <h4>Nivel 3: Peligro grave.</h4>
+                <p>Se refiere a líquidos y sólidos que pueden encenderse en casi todas las condiciones de temperatura ambiental, como la gasolina. Requieren un ligero calentamiento o exposición a temperaturas relativamente altas para encenderse.</p>
+                </div>
+                <div class="mx-3 col-md text-center border rounded p-4">
+                <h4>Nivel 4: Peligro extremo.</h4>
+                <p>Indica materiales que se vaporizan a presión atmosférica normal y se queman con facilidad, o que se dispersan y arden rápidamente en el aire. Esto incluye gases que pueden explotar cuando se mezclan con el aire, como el propano.</p>
+                </div>
+            </div>
+            <main>
+            <section>
+                <h2>Datos de creado</h2>
+                <div class="imagen-derecha">
+      <img src="images/caos.png" alt="imagen">
+    </div>
+                <p>
+                    Autobiografia:Mi nombre es Joaquín. Nací en la bella ciudad de León, Guanajuato, cuna de una rica historia y tradición, algo que siempre ha despertado mi curiosidad.
+                    Soy el hijo mayor de una familia de cinco integrantes, un lugar que me ha enseñado, desde siempre, el valor de la responsabilidad y el cuidado hacia los demás. Por naturaleza, me considero una persona tranquila, reflexiva y de gustos definidos.
+                    Siento una gran fascinación por los misterios de la vida y lo desconocido. Mis géneros favoritos son el terror, el suspenso y todo lo relacionado con la historia y las leyendas. Me apasiona explorar las narrativas que nos hacen cuestionar la realidad, ya sea a través de un libro, una película o un relato antiguo.
+                    En mi tiempo libre, disfruto sumergirme en mundos virtuales a través de los videojuegos, donde la aventura y la estrategia cobran vida. Sin embargo, también busco momentos de paz y conexión con la naturaleza, los cuales encuentro en mi otra gran afición: la pesca. Es ahí, entre la calma y la expectativa, donde encuentro un perfecto equilibrio.
+                    
+                </p>
+                </div>
+            </section>
+        </main>
+         <!--Carateritica-->
+         <section class="galeria bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Carateritica</h2>
+                
+                <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/bomb.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Velocidad de detonación</h5>
+        <p>Es la velocidad a la que la onda de choque viaja a través del explosivo. Una velocidad de detonación alta significa una liberación de energía muy rápida, lo cual es crucial para aplicaciones que requieren un corte o fragmentación precisos. </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/caos.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Potencia / Poder rompedor (Brisance)</h5>
+        <p>Se refiere a la capacidad del explosivo para hacer un trabajo destructivo, como fragmentar rocas o casquillos de proyectiles. Esta característica depende de la velocidad de detonación y de la energía que libera el explosivo.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/istockphoto-1198832169-612x612.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Estabilidad y sensibilidad</h5>
+        <p>La estabilidad se refiere a la resistencia del explosivo a descomponerse o detonar de forma espontánea. La sensibilidad, por otro lado, mide la facilidad con la que se puede iniciar una explosión mediante un impacto, fricción o calor. </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            </div>
         </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
