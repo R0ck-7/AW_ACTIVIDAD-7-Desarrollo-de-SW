@@ -1,0 +1,32 @@
+.renglon{
+    background-color: bisque;
+    height: 200px;
+}
+.logo{
+    width: 45px;
+    height: auto;   
+}
+
+.inicio{
+    height: 100vh;
+    background-image: url('../images/istockphoto-1317492797-612x612.tnt.jpg');
+    background-size: cover;
+}
+
+.inicio-titulo{
+    color: white;
+    margin-top:40%
+}
+
+.especialidades .bi{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.05);
+}
+
+    .centrar-imagen img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
